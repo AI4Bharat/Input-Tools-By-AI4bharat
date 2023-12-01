@@ -32,9 +32,13 @@ The extension allows you to configure the target language for transliteration. F
 2. Choose your preferred language from the options.
 3. Save your changes.
 
-## Screenshots
+## PPT SLIDES
 
 ![new commit](./images/slide0.png)
+![new commit](./images/slide1.png)
+![new commit](./images/slide2.png)
+![new commit](./images/slide3.png)
+![new commit](./images/slide4.png)
 
 
 
