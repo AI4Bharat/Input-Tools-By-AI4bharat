@@ -34,7 +34,6 @@ The extension allows you to configure the target language for transliteration. F
 
 ## PPT SLIDES
 
-![new commit](./images/slide0.png)
 ![new commit](./images/slide1.png)
 ![new commit](./images/slide2.png)
 ![new commit](./images/slide3.png)
