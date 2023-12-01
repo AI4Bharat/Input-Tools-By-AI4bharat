@@ -45,5 +45,6 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 Get the extension directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/input-tools-by-ai4bharat/lofelgaafdbdikholfnckfgigjklghik).
 
 ---
+“ A Digital Frontier Where Every Keystroke Writes Tomorrow's History."
 
 *Happy Typing!*
