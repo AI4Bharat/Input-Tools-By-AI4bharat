@@ -2,10 +2,7 @@
 
 Enhance your multilingual typing experience in Chrome with AI4Bharat's Input Tools extension. This extension provides real-time transliteration suggestions for Indian languages, making it easier to type in your preferred language seamlessly.
 
-
-
 ![Slide 1](./images/1.png) ![Slide 2](./images/2.png) ![Slide 3](./images/3.png) ![Slide 4](./images/4.png)
-
 
 ## Features
 
@@ -13,7 +10,6 @@ Enhance your multilingual typing experience in Chrome with AI4Bharat's Input Too
 - **Element Support:** Works with contenteditable, input:text, and textarea elements.
 - **Draggable Suggestion Box:** Improved user interaction with a draggable suggestion box.
 - **Multilingual Support:** Covers a diverse range of Indian languages.
-
 
 ## Seamless Multilingual Typing Across Platforms
 
@@ -23,25 +19,21 @@ Experience effortless multilingual typing with AI4Bharat's Input Tools Chrome Ex
 - **BARD (Blog Authoring & Research Dashboard):** Simplify content creation in Indian languages.
 - **Gmail:** Compose emails effortlessly with real-time transliteration suggestions.
 - **Google Sheets:** Streamline data entry in Indian languages.
-- **Anudesh:** The tools suppports in this contribute high-quality conversational data through personalized prompts.
-- **Shoonya:** 
-
+- **Anudesh:** The tool supports in this contribute high-quality conversational data through personalized prompts.
+- **Shoonya:** Leverage the extension's support to enhance language work, particularly in translation, on the Shoonya platform.
 
 ![Extension Support](./images/chatgpt.png)
 ![Extension Support](./images/bard.png)
 ![Extension Support](./images/gmail.png)
 ![Extension Support](./images/sheet.png)
 ![Extension Support](./images/youtube.png)
-
-
-
-
+![Extension Support](./images/anudesh.png)
+![Extension Support](./images/Shoonya.png)
 
 
 ---
 
 *Happy Typing!*
-
 
 ## Installation
 
@@ -66,8 +58,6 @@ The extension allows you to configure the target language for transliteration. F
 2. Choose your preferred language from the options.
 3. Save your changes.
 
-
-
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
@@ -77,6 +67,6 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 Get the extension directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/input-tools-by-ai4bharat/lofelgaafdbdikholfnckfgigjklghik).
 
 ---
-“ A Digital Frontier Where Every Keystroke Writes Tomorrow's History."
+“A Digital Frontier Where Every Keystroke Writes Tomorrow's History."
 
 *Happy Typing!*
