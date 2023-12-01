@@ -24,7 +24,12 @@ Experience effortless multilingual typing with AI4Bharat's Input Tools Chrome Ex
 - **Gmail:** Compose emails effortlessly with real-time transliteration suggestions.
 - **Google Sheets:** Streamline data entry in Indian languages.
 
-![Extension Support](./images/support.png)
+![Extension Support](./images/slide5.png)
+![Extension Support](./images/slide6.png)
+![Extension Support](./images/slide7.png)
+![Extension Support](./images/slide8.png)
+
+
 
 ---
 
