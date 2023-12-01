@@ -25,9 +25,10 @@ Experience effortless multilingual typing with AI4Bharat's Input Tools Chrome Ex
 - **Google Sheets:** Streamline data entry in Indian languages.
 
 ![Extension Support](./images/slide5.png)
+![Extension Support](./images/slide8.png)
 ![Extension Support](./images/slide6.png)
 ![Extension Support](./images/slide7.png)
-![Extension Support](./images/slides8.png)
+
 
 
 
