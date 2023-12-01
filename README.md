@@ -4,7 +4,7 @@ Enhance your multilingual typing experience in Chrome with AI4Bharat's Input Too
 
 
 
-![Slide 1](./images/slide1.png) ![Slide 2](./images/slide2.png) ![Slide 3](./images/slide3.png) ![Slide 4](./images/slide4.png)
+![Slide 1](./images/1.png) ![Slide 2](./images/2.png) ![Slide 3](./images/3.png) ![Slide 4](./images/4.png)
 
 
 ## Features
@@ -23,10 +23,17 @@ Experience effortless multilingual typing with AI4Bharat's Input Tools Chrome Ex
 - **BARD (Blog Authoring & Research Dashboard):** Simplify content creation in Indian languages.
 - **Gmail:** Compose emails effortlessly with real-time transliteration suggestions.
 - **Google Sheets:** Streamline data entry in Indian languages.
+- **Anudesh:** The tools suppports in this contribute high-quality conversational data through personalized prompts.
+- **Shoonya:** 
 
-![Extension Support](./images/slide5.png)
-![Extension Support](./images/slide8.png)
-![Extension Support](./images/slide6.png)
+
+![Extension Support](./images/chatgpt.png)
+![Extension Support](./images/bard.png)
+![Extension Support](./images/gmail.png)
+![Extension Support](./images/sheet.png)
+![Extension Support](./images/youtube.png)
+
+
 
 
 
