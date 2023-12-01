@@ -34,10 +34,7 @@ The extension allows you to configure the target language for transliteration. F
 
 ## PPT SLIDES
 
-![Slide 1](./images/slide1.png)
-![Slide 2](./images/slide2.png)
-![Slide 3](./images/slide3.png)
-![Slide 4](./images/slide4.png)
+![Slide 1](./images/slide1.png) ![Slide 2](./images/slide2.png) ![Slide 3](./images/slide3.png) ![Slide 4](./images/slide4.png)
 
 ## Contributing
 
@@ -50,18 +47,3 @@ Get the extension directly from the [Chrome Web Store](https://chromewebstore.go
 ---
 
 *Happy Typing!*
-
-<style>
-  @keyframes readmeAnimation {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  img {
-    animation: readmeAnimation 5s infinite linear;
-  }
-</style>
