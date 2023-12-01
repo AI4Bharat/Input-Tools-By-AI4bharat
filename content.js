@@ -46,13 +46,19 @@ function applyStyles(cssStyles) {
 }
 
 function getCurrentWord($textObj) {
+  var words;
+
   if ($textObj.is("[contenteditable]")) {
-    var words = $textObj.text().split(/\s+/);
+    words = $textObj.text().split(/\s+/);
   } else if ($textObj.is("input:text") || $textObj.is("textarea")) {
-    var words = $textObj.val().split(/\s+/);
+    words = $textObj.val().split(/\s+/);
+  } else {
+    words = [];
   }
-  return words[words.length - 1];
+
+  return words.length > 0 ? words[words.length - 1] : "";
 }
+
 
 function insertSuggestion($textObj, selectedSuggestion) {
   var currentWord = getCurrentWord($textObj);
