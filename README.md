@@ -4,10 +4,10 @@ Enhance your multilingual typing experience in Chrome with AI4Bharat's Input Too
 
 ## Features
 
-- Real-time transliteration suggestions for Indian languages.
-- Supports contenteditable, input:text, and textarea elements.
-- Draggable suggestion box for improved user interaction.
-- Multilingual support for a diverse range of Indian languages.
+- **Real-time Transliteration Suggestions:** Receive suggestions as you type in Indian languages.
+- **Element Support:** Works with contenteditable, input:text, and textarea elements.
+- **Draggable Suggestion Box:** Improved user interaction with a draggable suggestion box.
+- **Multilingual Support:** Covers a diverse range of Indian languages.
 
 ## Installation
 
@@ -34,12 +34,10 @@ The extension allows you to configure the target language for transliteration. F
 
 ## PPT SLIDES
 
-![new commit](./images/slide1.png)
-![new commit](./images/slide2.png)
-![new commit](./images/slide3.png)
-![new commit](./images/slide4.png)
-
-
+![Slide 1](./images/slide1.png)
+![Slide 2](./images/slide2.png)
+![Slide 3](./images/slide3.png)
+![Slide 4](./images/slide4.png)
 
 ## Contributing
 
@@ -49,7 +47,21 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 
 Get the extension directly from the [Chrome Web Store](https://chromewebstore.google.com/detail/input-tools-by-ai4bharat/lofelgaafdbdikholfnckfgigjklghik).
 
-
 ---
 
 *Happy Typing!*
+
+<style>
+  @keyframes readmeAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  img {
+    animation: readmeAnimation 5s infinite linear;
+  }
+</style>
