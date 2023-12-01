@@ -2,12 +2,34 @@
 
 Enhance your multilingual typing experience in Chrome with AI4Bharat's Input Tools extension. This extension provides real-time transliteration suggestions for Indian languages, making it easier to type in your preferred language seamlessly.
 
+
+
+![Slide 1](./images/slide1.png) ![Slide 2](./images/slide2.png) ![Slide 3](./images/slide3.png) ![Slide 4](./images/slide4.png)
+
+
 ## Features
 
 - **Real-time Transliteration Suggestions:** Receive suggestions as you type in Indian languages.
 - **Element Support:** Works with contenteditable, input:text, and textarea elements.
 - **Draggable Suggestion Box:** Improved user interaction with a draggable suggestion box.
 - **Multilingual Support:** Covers a diverse range of Indian languages.
+
+
+## Seamless Multilingual Typing Across Platforms
+
+Experience effortless multilingual typing with AI4Bharat's Input Tools Chrome Extension across various platforms.
+
+- **ChatGPT:** Type effortlessly in your preferred Indian language while chatting.
+- **BARD (Blog Authoring & Research Dashboard):** Simplify content creation in Indian languages.
+- **Gmail:** Compose emails effortlessly with real-time transliteration suggestions.
+- **Google Sheets:** Streamline data entry in Indian languages.
+
+![Extension Support](./images/support.png)
+
+---
+
+*Happy Typing!*
+
 
 ## Installation
 
@@ -32,9 +54,7 @@ The extension allows you to configure the target language for transliteration. F
 2. Choose your preferred language from the options.
 3. Save your changes.
 
-## PPT SLIDES
 
-![Slide 1](./images/slide1.png) ![Slide 2](./images/slide2.png) ![Slide 3](./images/slide3.png) ![Slide 4](./images/slide4.png)
 
 ## Contributing
 
