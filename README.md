@@ -30,7 +30,6 @@ Experience effortless multilingual typing with AI4Bharat's Input Tools Chrome Ex
 ![Extension Support](./images/anudesh.png)
 ![Extension Support](./images/Shoonya.png)
 
-
 ---
 
 *Happy Typing!*

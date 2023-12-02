@@ -349,35 +349,33 @@ $("body").on("focus", "[contenteditable],input, textarea", function () {
   });
 });
 
-$suggestionSpan.on("mouseenter", ".suggestion-item", function () {
-  $suggestionSpan.find(".suggestion-item").removeClass("selected hovered");
-  $(this).addClass("selected hovered");
-});
+$suggestionSpan.on("mouseenter mouseleave mousedown", ".suggestion-item", function (e) {
+  if (e.type === "mouseenter") {
+    $suggestionSpan.find(".suggestion-item").removeClass("selected hovered");
+    $(this).addClass("selected hovered");
+  } else if (e.type === "mouseleave") {
+    $(this).removeClass("selected hovered");
+  } else if (e.type === "mousedown") {
+    e.preventDefault();
+    var selectedSuggestion = $(this).text();
+    insertSuggestion($textObj, selectedSuggestion);
 
-$suggestionSpan.on("mouseleave", ".suggestion-item", function () {
-  $(this).removeClass("selected hovered");
-});
+    if ($textObj.is("[contenteditable]")) {
+      var textNode = $textObj[0].firstChild;
+      var range = document.createRange();
+      range.setStart(textNode, textNode.length);
+      range.collapse(true);
+      var selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+    } else if ($textObj.is("textarea")) {
+      $textObj[0].setSelectionRange($textObj.val().length, $textObj.val().length);
+    }
 
-$suggestionSpan.on("mousedown", ".suggestion-item", function (e) {
-  e.preventDefault();
-
-  var selectedSuggestion = $(this).text();
-  insertSuggestion($textObj, selectedSuggestion);
-
-  if ($textObj.is("[contenteditable]")) {
-    var textNode = $textObj[0].firstChild;
-    var range = document.createRange();
-    range.setStart(textNode, textNode.length);
-    range.collapse(true);
-    var selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
-  } else if ($textObj.is("textarea")) {
-    $textObj[0].setSelectionRange($textObj.val().length, $textObj.val().length);
+    $textObj.trigger("input");
   }
-
-  $textObj.trigger("input");
 });
+
 
 function dragSuggestionBox() {
   var suggestionBox = document.getElementById("suggestion");
