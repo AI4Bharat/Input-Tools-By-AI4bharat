@@ -26,6 +26,7 @@ Experience effortless multilingual typing with AI4Bharat's Input Tools Chrome Ex
 ![Extension Support](./images/bard.png)
 ![Extension Support](./images/gmail.png)
 ![Extension Support](./images/googlesheet.png)
+
 ![Extension Support](./images/youtube.png)
 ![Extension Support](./images/anudesh.png)
 ![Extension Support](./images/Shoonya.png)
