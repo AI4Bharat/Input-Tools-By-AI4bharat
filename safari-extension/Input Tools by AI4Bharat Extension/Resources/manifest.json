@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "default_locale": "en",
+
+    "name": "Input Tools by AI4Bharat",
+    "description": "Effortless Typing, Endless Expression: Unleash the power of the Indian Input Tool Extension!",
+    "version": "1.05",
+
+    "icons": {
+        "32": "images/icon32.png",
+        "96": "images/icon96.png",
+        "256": "images/icon256.png"
+    },
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "content_scripts": [{
+        "css": ["content.css"],
+        "js": ["jquery.js", "content.js", "jqueryui.js"],
+        "matches": ["http://*/*", "https://*/*"]
+    }],
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "images/icon32.png",
+            "96": "images/icon96.png",
+            "256": "images/icon256.png"
+        }
+    },
+
+    "permissions": [
+        "activeTab",
+        {
+          "scripting": {
+            "whitelist": ["http://*", "https://*"]
+          }
+        }
+      ],
+}

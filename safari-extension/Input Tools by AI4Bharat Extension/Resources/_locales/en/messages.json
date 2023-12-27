@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Input Tools by AI4Bharat Extension",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "This is Input Tools by AI4Bharat Extension. You should tell us what your extension does here.",
+        "description": "Description of what the extension does."
+    }
+}

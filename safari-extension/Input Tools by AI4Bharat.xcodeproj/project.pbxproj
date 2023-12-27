@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2738BF142B1B04A1000841BC /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 2738BF122B1B04A1000841BC /* jquery.js */; };
+		2738BF152B1B04A1000841BC /* dropdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 2738BF112B1B04A1000841BC /* dropdown.js */; };
+		2738BF162B1B04A1000841BC /* jqueryui.js in Resources */ = {isa = PBXBuildFile; fileRef = 2738BF132B1B04A1000841BC /* jqueryui.js */; };
+		274771BF2B1AF934005F480F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274771BE2B1AF934005F480F /* AppDelegate.swift */; };
+		274771C32B1AF934005F480F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 274771C12B1AF934005F480F /* Main.html */; };
+		274771C52B1AF934005F480F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 274771C42B1AF934005F480F /* Icon.png */; };
+		274771C72B1AF934005F480F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 274771C62B1AF934005F480F /* Style.css */; };
+		274771C92B1AF934005F480F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 274771C82B1AF934005F480F /* Script.js */; };
+		274771CB2B1AF934005F480F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274771CA2B1AF934005F480F /* ViewController.swift */; };
+		274771CE2B1AF934005F480F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274771CC2B1AF934005F480F /* Main.storyboard */; };
+		274771D02B1AF936005F480F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274771CF2B1AF936005F480F /* Assets.xcassets */; };
+		274771DC2B1AF936005F480F /* Input_Tools_by_AI4BharatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274771DB2B1AF936005F480F /* Input_Tools_by_AI4BharatTests.swift */; };
+		274771E62B1AF936005F480F /* Input_Tools_by_AI4BharatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274771E52B1AF936005F480F /* Input_Tools_by_AI4BharatUITests.swift */; };
+		274771E82B1AF936005F480F /* Input_Tools_by_AI4BharatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274771E72B1AF936005F480F /* Input_Tools_by_AI4BharatUITestsLaunchTests.swift */; };
+		274771EE2B1AF936005F480F /* Input Tools by AI4Bharat Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 274771ED2B1AF936005F480F /* Input Tools by AI4Bharat Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		274771F32B1AF936005F480F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274771F22B1AF936005F480F /* SafariWebExtensionHandler.swift */; };
+		274771F62B1AF936005F480F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 274771F52B1AF936005F480F /* _locales */; };
+		274771F82B1AF936005F480F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 274771F72B1AF936005F480F /* images */; };
+		274771FA2B1AF936005F480F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 274771F92B1AF936005F480F /* manifest.json */; };
+		274771FC2B1AF936005F480F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 274771FB2B1AF936005F480F /* background.js */; };
+		274771FE2B1AF936005F480F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 274771FD2B1AF936005F480F /* content.js */; };
+		274772002B1AF936005F480F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 274771FF2B1AF936005F480F /* popup.html */; };
+		274772022B1AF936005F480F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 274772012B1AF936005F480F /* popup.css */; };
+		274772042B1AF936005F480F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 274772032B1AF936005F480F /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274771D82B1AF936005F480F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274771B32B1AF934005F480F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274771BA2B1AF934005F480F;
+			remoteInfo = "Input Tools by AI4Bharat";
+		};
+		274771E22B1AF936005F480F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274771B32B1AF934005F480F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274771BA2B1AF934005F480F;
+			remoteInfo = "Input Tools by AI4Bharat";
+		};
+		274771EF2B1AF936005F480F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274771B32B1AF934005F480F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274771EC2B1AF936005F480F;
+			remoteInfo = "Input Tools by AI4Bharat Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2747720C2B1AF936005F480F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				274771EE2B1AF936005F480F /* Input Tools by AI4Bharat Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2738BF112B1B04A1000841BC /* dropdown.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = dropdown.js; sourceTree = "<group>"; };
+		2738BF122B1B04A1000841BC /* jquery.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		2738BF132B1B04A1000841BC /* jqueryui.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jqueryui.js; sourceTree = "<group>"; };
+		274771BB2B1AF934005F480F /* Input Tools by AI4Bharat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Input Tools by AI4Bharat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274771BE2B1AF934005F480F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		274771C22B1AF934005F480F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		274771C42B1AF934005F480F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		274771C62B1AF934005F480F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		274771C82B1AF934005F480F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		274771CA2B1AF934005F480F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		274771CD2B1AF934005F480F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		274771CF2B1AF936005F480F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		274771D12B1AF936005F480F /* Input_Tools_by_AI4Bharat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Input_Tools_by_AI4Bharat.entitlements; sourceTree = "<group>"; };
+		274771D22B1AF936005F480F /* Input Tools by AI4Bharat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Input Tools by AI4Bharat.entitlements"; sourceTree = "<group>"; };
+		274771D72B1AF936005F480F /* Input Tools by AI4BharatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Input Tools by AI4BharatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274771DB2B1AF936005F480F /* Input_Tools_by_AI4BharatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input_Tools_by_AI4BharatTests.swift; sourceTree = "<group>"; };
+		274771E12B1AF936005F480F /* Input Tools by AI4BharatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Input Tools by AI4BharatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274771E52B1AF936005F480F /* Input_Tools_by_AI4BharatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input_Tools_by_AI4BharatUITests.swift; sourceTree = "<group>"; };
+		274771E72B1AF936005F480F /* Input_Tools_by_AI4BharatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input_Tools_by_AI4BharatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		274771ED2B1AF936005F480F /* Input Tools by AI4Bharat Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Input Tools by AI4Bharat Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274771F22B1AF936005F480F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		274771F52B1AF936005F480F /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		274771F72B1AF936005F480F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		274771F92B1AF936005F480F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		274771FB2B1AF936005F480F /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		274771FD2B1AF936005F480F /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		274771FF2B1AF936005F480F /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		274772012B1AF936005F480F /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		274772032B1AF936005F480F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		274772052B1AF936005F480F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274772062B1AF936005F480F /* Input_Tools_by_AI4Bharat_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Input_Tools_by_AI4Bharat_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274771B82B1AF934005F480F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274771D42B1AF936005F480F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274771DE2B1AF936005F480F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274771EA2B1AF936005F480F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274771B22B1AF934005F480F = {
+			isa = PBXGroup;
+			children = (
+				274771BD2B1AF934005F480F /* Input Tools by AI4Bharat */,
+				274771DA2B1AF936005F480F /* Input Tools by AI4BharatTests */,
+				274771E42B1AF936005F480F /* Input Tools by AI4BharatUITests */,
+				274771F12B1AF936005F480F /* Input Tools by AI4Bharat Extension */,
+				274771BC2B1AF934005F480F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		274771BC2B1AF934005F480F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274771BB2B1AF934005F480F /* Input Tools by AI4Bharat.app */,
+				274771D72B1AF936005F480F /* Input Tools by AI4BharatTests.xctest */,
+				274771E12B1AF936005F480F /* Input Tools by AI4BharatUITests.xctest */,
+				274771ED2B1AF936005F480F /* Input Tools by AI4Bharat Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274771BD2B1AF934005F480F /* Input Tools by AI4Bharat */ = {
+			isa = PBXGroup;
+			children = (
+				274771BE2B1AF934005F480F /* AppDelegate.swift */,
+				274771CA2B1AF934005F480F /* ViewController.swift */,
+				274771CC2B1AF934005F480F /* Main.storyboard */,
+				274771CF2B1AF936005F480F /* Assets.xcassets */,
+				274771D12B1AF936005F480F /* Input_Tools_by_AI4Bharat.entitlements */,
+				274771D22B1AF936005F480F /* Input Tools by AI4Bharat.entitlements */,
+				274771C02B1AF934005F480F /* Resources */,
+			);
+			path = "Input Tools by AI4Bharat";
+			sourceTree = "<group>";
+		};
+		274771C02B1AF934005F480F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				274771C12B1AF934005F480F /* Main.html */,
+				274771C42B1AF934005F480F /* Icon.png */,
+				274771C62B1AF934005F480F /* Style.css */,
+				274771C82B1AF934005F480F /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		274771DA2B1AF936005F480F /* Input Tools by AI4BharatTests */ = {
+			isa = PBXGroup;
+			children = (
+				274771DB2B1AF936005F480F /* Input_Tools_by_AI4BharatTests.swift */,
+			);
+			path = "Input Tools by AI4BharatTests";
+			sourceTree = "<group>";
+		};
+		274771E42B1AF936005F480F /* Input Tools by AI4BharatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				274771E52B1AF936005F480F /* Input_Tools_by_AI4BharatUITests.swift */,
+				274771E72B1AF936005F480F /* Input_Tools_by_AI4BharatUITestsLaunchTests.swift */,
+			);
+			path = "Input Tools by AI4BharatUITests";
+			sourceTree = "<group>";
+		};
+		274771F12B1AF936005F480F /* Input Tools by AI4Bharat Extension */ = {
+			isa = PBXGroup;
+			children = (
+				274771F22B1AF936005F480F /* SafariWebExtensionHandler.swift */,
+				274772052B1AF936005F480F /* Info.plist */,
+				274772062B1AF936005F480F /* Input_Tools_by_AI4Bharat_Extension.entitlements */,
+				274771F42B1AF936005F480F /* Resources */,
+			);
+			path = "Input Tools by AI4Bharat Extension";
+			sourceTree = "<group>";
+		};
+		274771F42B1AF936005F480F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				274771F52B1AF936005F480F /* _locales */,
+				274771F72B1AF936005F480F /* images */,
+				274771F92B1AF936005F480F /* manifest.json */,
+				274771FB2B1AF936005F480F /* background.js */,
+				274771FD2B1AF936005F480F /* content.js */,
+				274771FF2B1AF936005F480F /* popup.html */,
+				274772012B1AF936005F480F /* popup.css */,
+				274772032B1AF936005F480F /* popup.js */,
+				2738BF112B1B04A1000841BC /* dropdown.js */,
+				2738BF122B1B04A1000841BC /* jquery.js */,
+				2738BF132B1B04A1000841BC /* jqueryui.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274771BA2B1AF934005F480F /* Input Tools by AI4Bharat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2747720D2B1AF936005F480F /* Build configuration list for PBXNativeTarget "Input Tools by AI4Bharat" */;
+			buildPhases = (
+				274771B72B1AF934005F480F /* Sources */,
+				274771B82B1AF934005F480F /* Frameworks */,
+				274771B92B1AF934005F480F /* Resources */,
+				2747720C2B1AF936005F480F /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274771F02B1AF936005F480F /* PBXTargetDependency */,
+			);
+			name = "Input Tools by AI4Bharat";
+			productName = "Input Tools by AI4Bharat";
+			productReference = 274771BB2B1AF934005F480F /* Input Tools by AI4Bharat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		274771D62B1AF936005F480F /* Input Tools by AI4BharatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274772102B1AF936005F480F /* Build configuration list for PBXNativeTarget "Input Tools by AI4BharatTests" */;
+			buildPhases = (
+				274771D32B1AF936005F480F /* Sources */,
+				274771D42B1AF936005F480F /* Frameworks */,
+				274771D52B1AF936005F480F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274771D92B1AF936005F480F /* PBXTargetDependency */,
+			);
+			name = "Input Tools by AI4BharatTests";
+			productName = "Input Tools by AI4BharatTests";
+			productReference = 274771D72B1AF936005F480F /* Input Tools by AI4BharatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		274771E02B1AF936005F480F /* Input Tools by AI4BharatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274772132B1AF936005F480F /* Build configuration list for PBXNativeTarget "Input Tools by AI4BharatUITests" */;
+			buildPhases = (
+				274771DD2B1AF936005F480F /* Sources */,
+				274771DE2B1AF936005F480F /* Frameworks */,
+				274771DF2B1AF936005F480F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274771E32B1AF936005F480F /* PBXTargetDependency */,
+			);
+			name = "Input Tools by AI4BharatUITests";
+			productName = "Input Tools by AI4BharatUITests";
+			productReference = 274771E12B1AF936005F480F /* Input Tools by AI4BharatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		274771EC2B1AF936005F480F /* Input Tools by AI4Bharat Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274772092B1AF936005F480F /* Build configuration list for PBXNativeTarget "Input Tools by AI4Bharat Extension" */;
+			buildPhases = (
+				274771E92B1AF936005F480F /* Sources */,
+				274771EA2B1AF936005F480F /* Frameworks */,
+				274771EB2B1AF936005F480F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Input Tools by AI4Bharat Extension";
+			productName = "Input Tools by AI4Bharat Extension";
+			productReference = 274771ED2B1AF936005F480F /* Input Tools by AI4Bharat Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274771B32B1AF934005F480F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					274771BA2B1AF934005F480F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					274771D62B1AF936005F480F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 274771BA2B1AF934005F480F;
+					};
+					274771E02B1AF936005F480F = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 274771BA2B1AF934005F480F;
+					};
+					274771EC2B1AF936005F480F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 274771B62B1AF934005F480F /* Build configuration list for PBXProject "Input Tools by AI4Bharat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 274771B22B1AF934005F480F;
+			productRefGroup = 274771BC2B1AF934005F480F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274771BA2B1AF934005F480F /* Input Tools by AI4Bharat */,
+				274771D62B1AF936005F480F /* Input Tools by AI4BharatTests */,
+				274771E02B1AF936005F480F /* Input Tools by AI4BharatUITests */,
+				274771EC2B1AF936005F480F /* Input Tools by AI4Bharat Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274771B92B1AF934005F480F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274771C52B1AF934005F480F /* Icon.png in Resources */,
+				274771CE2B1AF934005F480F /* Main.storyboard in Resources */,
+				274771C92B1AF934005F480F /* Script.js in Resources */,
+				274771C32B1AF934005F480F /* Main.html in Resources */,
+				274771D02B1AF936005F480F /* Assets.xcassets in Resources */,
+				274771C72B1AF934005F480F /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274771D52B1AF936005F480F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274771DF2B1AF936005F480F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274771EB2B1AF936005F480F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274771FC2B1AF936005F480F /* background.js in Resources */,
+				2738BF152B1B04A1000841BC /* dropdown.js in Resources */,
+				274772022B1AF936005F480F /* popup.css in Resources */,
+				2738BF162B1B04A1000841BC /* jqueryui.js in Resources */,
+				274772002B1AF936005F480F /* popup.html in Resources */,
+				274771F82B1AF936005F480F /* images in Resources */,
+				274771FA2B1AF936005F480F /* manifest.json in Resources */,
+				274771F62B1AF936005F480F /* _locales in Resources */,
+				2738BF142B1B04A1000841BC /* jquery.js in Resources */,
+				274771FE2B1AF936005F480F /* content.js in Resources */,
+				274772042B1AF936005F480F /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274771B72B1AF934005F480F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274771CB2B1AF934005F480F /* ViewController.swift in Sources */,
+				274771BF2B1AF934005F480F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274771D32B1AF936005F480F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274771DC2B1AF936005F480F /* Input_Tools_by_AI4BharatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274771DD2B1AF936005F480F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274771E62B1AF936005F480F /* Input_Tools_by_AI4BharatUITests.swift in Sources */,
+				274771E82B1AF936005F480F /* Input_Tools_by_AI4BharatUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274771E92B1AF936005F480F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274771F32B1AF936005F480F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274771D92B1AF936005F480F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274771BA2B1AF934005F480F /* Input Tools by AI4Bharat */;
+			targetProxy = 274771D82B1AF936005F480F /* PBXContainerItemProxy */;
+		};
+		274771E32B1AF936005F480F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274771BA2B1AF934005F480F /* Input Tools by AI4Bharat */;
+			targetProxy = 274771E22B1AF936005F480F /* PBXContainerItemProxy */;
+		};
+		274771F02B1AF936005F480F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274771EC2B1AF936005F480F /* Input Tools by AI4Bharat Extension */;
+			targetProxy = 274771EF2B1AF936005F480F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		274771C12B1AF934005F480F /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274771C22B1AF934005F480F /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		274771CC2B1AF934005F480F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274771CD2B1AF934005F480F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		274772072B1AF936005F480F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		274772082B1AF936005F480F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2747720A2B1AF936005F480F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Input Tools by AI4Bharat Extension/Input_Tools_by_AI4Bharat_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Input Tools by AI4Bharat Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Input Tools by AI4Bharat Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AI4Bharat.Input-Tools-by-AI4Bharat.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2747720B2B1AF936005F480F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Input Tools by AI4Bharat Extension/Input_Tools_by_AI4Bharat_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Input Tools by AI4Bharat Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Input Tools by AI4Bharat Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AI4Bharat.Input-Tools-by-AI4Bharat.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2747720E2B1AF936005F480F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Input Tools by AI4Bharat/Input Tools by AI4Bharat.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Input Tools by AI4Bharat";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AI4Bharat.Input-Tools-by-AI4Bharat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2747720F2B1AF936005F480F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Input Tools by AI4Bharat/Input Tools by AI4Bharat.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Input Tools by AI4Bharat";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AI4Bharat.Input-Tools-by-AI4Bharat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		274772112B1AF936005F480F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AI4Bharat.Input-Tools-by-AI4BharatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Input Tools by AI4Bharat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Input Tools by AI4Bharat";
+			};
+			name = Debug;
+		};
+		274772122B1AF936005F480F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AI4Bharat.Input-Tools-by-AI4BharatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Input Tools by AI4Bharat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Input Tools by AI4Bharat";
+			};
+			name = Release;
+		};
+		274772142B1AF936005F480F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AI4Bharat.Input-Tools-by-AI4BharatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Input Tools by AI4Bharat";
+			};
+			name = Debug;
+		};
+		274772152B1AF936005F480F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AI4Bharat.Input-Tools-by-AI4BharatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Input Tools by AI4Bharat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274771B62B1AF934005F480F /* Build configuration list for PBXProject "Input Tools by AI4Bharat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274772072B1AF936005F480F /* Debug */,
+				274772082B1AF936005F480F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274772092B1AF936005F480F /* Build configuration list for PBXNativeTarget "Input Tools by AI4Bharat Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2747720A2B1AF936005F480F /* Debug */,
+				2747720B2B1AF936005F480F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2747720D2B1AF936005F480F /* Build configuration list for PBXNativeTarget "Input Tools by AI4Bharat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2747720E2B1AF936005F480F /* Debug */,
+				2747720F2B1AF936005F480F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274772102B1AF936005F480F /* Build configuration list for PBXNativeTarget "Input Tools by AI4BharatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274772112B1AF936005F480F /* Debug */,
+				274772122B1AF936005F480F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274772132B1AF936005F480F /* Build configuration list for PBXNativeTarget "Input Tools by AI4BharatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274772142B1AF936005F480F /* Debug */,
+				274772152B1AF936005F480F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 274771B32B1AF934005F480F /* Project object */;
+}
