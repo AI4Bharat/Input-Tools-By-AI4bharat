@@ -1,3 +1,4 @@
+var $ = window.jQuery || $;
 var suggestionSelected = false,
   languageCode = "",
   typingTimer,
@@ -46,19 +47,13 @@ function applyStyles(cssStyles) {
 }
 
 function getCurrentWord($textObj) {
-  var words;
-
   if ($textObj.is("[contenteditable]")) {
-    words = $textObj.text().split(/\s+/);
+    var words = $textObj.text().split(/\s+/);
   } else if ($textObj.is("input:text") || $textObj.is("textarea")) {
-    words = $textObj.val().split(/\s+/);
-  } else {
-    words = [];
+    var words = $textObj.val().split(/\s+/);
   }
-
-  return words.length > 0 ? words[words.length - 1] : "";
+  return words[words.length - 1];
 }
-
 
 function insertSuggestion($textObj, selectedSuggestion) {
   var currentWord = getCurrentWord($textObj);
@@ -116,9 +111,9 @@ function handleInput($textObj) {
 
 function fetchSuggestions(currentWord) {
   const apiUrl =
-    "https://api.dhruva.ai4bharat.org/services/inference/transliteration";
+    "https://api.dhruva.ekstep.ai/services/inference/transliteration";
   const apiKey =
-    "EAMe0BjX5OSO_Rw5BDQZKmhzW1kdXDOZM9eEKYrumLIMlCCHzrUllMn5UU9SZmHa";
+    "uOQOvZAkdKQpaeZa5-K03k9SIXOtZFEIkdj995-lTz_bozcijCNgVye2jEGIRFQG";
 
   const requestData = {
     input: [
@@ -127,11 +122,11 @@ function fetchSuggestions(currentWord) {
       },
     ],
     config: {
-      serviceId: "ai4bharat/indicxlit--cpu-fsv2",
+      serviceId: "ai4bharat/indicxlit--gpu-t4",
       language: {
         sourceLanguage: "en",
         sourceScriptCode: "",
-        targetLanguage: languageCode, 
+        targetLanguage: languageCode,
         targetScriptCode: "",
       },
       isSentence: false,
@@ -349,33 +344,35 @@ $("body").on("focus", "[contenteditable],input, textarea", function () {
   });
 });
 
-$suggestionSpan.on("mouseenter mouseleave mousedown", ".suggestion-item", function (e) {
-  if (e.type === "mouseenter") {
-    $suggestionSpan.find(".suggestion-item").removeClass("selected hovered");
-    $(this).addClass("selected hovered");
-  } else if (e.type === "mouseleave") {
-    $(this).removeClass("selected hovered");
-  } else if (e.type === "mousedown") {
-    e.preventDefault();
-    var selectedSuggestion = $(this).text();
-    insertSuggestion($textObj, selectedSuggestion);
-
-    if ($textObj.is("[contenteditable]")) {
-      var textNode = $textObj[0].firstChild;
-      var range = document.createRange();
-      range.setStart(textNode, textNode.length);
-      range.collapse(true);
-      var selection = window.getSelection();
-      selection.removeAllRanges();
-      selection.addRange(range);
-    } else if ($textObj.is("textarea")) {
-      $textObj[0].setSelectionRange($textObj.val().length, $textObj.val().length);
-    }
-
-    $textObj.trigger("input");
-  }
+$suggestionSpan.on("mouseenter", ".suggestion-item", function () {
+  $suggestionSpan.find(".suggestion-item").removeClass("selected hovered");
+  $(this).addClass("selected hovered");
 });
 
+$suggestionSpan.on("mouseleave", ".suggestion-item", function () {
+  $(this).removeClass("selected hovered");
+});
+
+$suggestionSpan.on("mousedown", ".suggestion-item", function (e) {
+  e.preventDefault();
+
+  var selectedSuggestion = $(this).text();
+  insertSuggestion($textObj, selectedSuggestion);
+
+  if ($textObj.is("[contenteditable]")) {
+    var textNode = $textObj[0].firstChild;
+    var range = document.createRange();
+    range.setStart(textNode, textNode.length);
+    range.collapse(true);
+    var selection = window.getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+  } else if ($textObj.is("textarea")) {
+    $textObj[0].setSelectionRange($textObj.val().length, $textObj.val().length);
+  }
+
+  $textObj.trigger("input");
+});
 
 function dragSuggestionBox() {
   var suggestionBox = document.getElementById("suggestion");
@@ -410,7 +407,6 @@ function dragSuggestionBox() {
     document.removeEventListener("mouseup", closeDragElement);
   }
 }
-
 
 $("body").append($suggestionSpan);
 var cssStyles = `
@@ -592,4 +588,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
-
